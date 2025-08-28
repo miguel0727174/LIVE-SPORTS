@@ -1,0 +1,209 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body { 
+    height: 100%;
+width: 100%;
+    background-image: url(ferramentas-esportivas.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+header { width: 100%;
+height: 10vh;
+background-color: rgba(0, 0, 0, 0.6);
+display: flex;
+justify-content: space-around;
+align-items: center;}
+
+
+.search-box-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    margin-top: -3%;
+  
+}
+
+#search-bar {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex-grow: 1;
+    font-size: 16px;
+    padding: 0 15px;
+    color: white;
+
+}
+
+#search-bar::placeholder {
+    color: #a0a0a0;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.search-button i {
+    font-size: 18px;
+}
+
+
+#aprimore { 
+    position: absolute;
+    width: 100vh;
+height: 20vh;
+background-color: black;
+margin-left: 25%;
+margin-top: 5%;
+border-radius: 8px;
+text-align: center;
+ box-shadow: 5px 5px 10px blue;
+margin-top: 25%;}
+
+#aprimore>h3 {color: white;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 500;
+font-size: 50px;}
+
+#menu { color: white;}
+
+#quem {
+    position: relative;
+    text-decoration: dashed;
+font-size: 17px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white; 
+  
+}
+
+#fale { position: relative;
+    text-decoration: dashed;
+font-size: 17px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white; 
+}
+
+#entrar {position: relative;
+    text-decoration: dashed;
+font-size: 17px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+ }
+
+ #produtos {display: flex;
+justify-content: space-between;}
+
+
+
+#store {
+    margin-top: 2%;
+    width: 20vh;
+height: 5vh;
+border-radius: 5px;
+border: none;}
+
+#store>a {text-decoration: dashed;
+color: black;
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif1;}
+
+#fut { margin-top: 2%;
+    width: 20vh;
+height: 5vh;
+border-radius: 5px;
+border: none;}
+
+#fut>a {text-decoration: dashed;
+color: black;
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif1;}
+
+#femi { margin-top: 2%;
+    width: 20vh;
+height: 5vh;
+border-radius: 5px;
+border: none;}
+
+#femi>a {text-decoration: dashed;
+color: black;
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif1;}
+
+#style {margin-top: 2%;
+    width: 20vh;
+height: 5vh;
+border-radius: 5px;
+border: none;}
+
+#style>a {text-decoration: dashed;
+color: black;
+font-weight: 600;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif1;}
+
+img { position: relative;
+    width: 80vh;
+height: 80vh;
+margin-top: -77%;
+margin-left: 10%;}
+
+#pag2 { 
+    position: absolute;
+    margin-top: 39%;
+     width: 100%;
+height: 100vh;
+background-color: rgb(36, 53, 104);
+}
+
+#voltar { 
+    position: absolute;
+    width: 20vh;
+height: 10vh;
+margin-top: 5%;
+margin-left: 2%;
+border-radius: 8px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+box-shadow: 3px 3px #0056b3;
+}
+
+#pag2>p {font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+grid-area: text;
+margin-top: 13%;
+margin-left: 5%;}
+
+#pag2>img { 
+    position: absolute;
+    margin-left: 50%;
+margin-top: -35%;
+height: 70vh;
+width: 70vh;
+border-radius: 58px;}
+
+#pag2>h2 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 30px;
+font-weight: 600;
+margin-left: 40%;}
